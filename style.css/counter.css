@@ -1,0 +1,67 @@
+h3{
+  font-size:2em;
+  text-align:center;
+}
+
+h4{
+  font-size:2em;
+  text-align:center;
+}
+
+div{
+  font-size:5em;
+  text-align:center;
+}
+
+button{
+  width:5em;
+  font-size:0.75em;
+}
+
+@media only screen and (max-width:480px){
+
+  h3{
+    font-size:1em;
+    text-align:center;
+  }
+
+  h4{
+    font-size:1em;
+    text-align:center;
+  }
+
+  div{
+    font-size:2em;
+    text-align:center;
+  }
+
+  button{
+    width:4em;
+    font-size:0.5em;
+  }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:780px){
+
+  h3{
+    font-size:1.5em;
+    text-align:center;
+  }
+
+  h4{
+    font-size:1.5em;
+    text-align:center;
+  }
+
+  div{
+    font-size:3em;
+    text-align:center;
+  }
+
+  button{
+    width:5em;
+    font-size:0.6em;
+  }
+
+}
